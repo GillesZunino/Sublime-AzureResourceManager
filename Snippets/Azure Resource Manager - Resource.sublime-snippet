@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+{
+	"name":	"$1",
+	"type":	"$2",
+	"apiVersion":	"$3",
+	"location":	"$4",
+	"tags":	{
+		"$5":	"$6"
+	},
+	"dependsOn":	[
+		"$7"	
+	],
+	"properties:":	{
+		$8$SELECTION
+	},
+	"resources":	{
+		$9
+	}
+}
+]]></content>
+	<tabTrigger>arm:r</tabTrigger>
+	<!-- Limit snippet trigger to "Azure resource manager" scope -->
+	<scope>source.azure-resource-manager</scope>
+	<Description>Azure Resource Manager Resource</Description>
+</snippet>

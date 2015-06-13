@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+"${1:myParameter}":	{
+	"type":	"${2:string}",
+	"defaultValue":	$3,
+	"allowedValues":	[
+		"$4"
+	],
+	"metadata":	{
+		"description": "$5"
+	}
+}
+]]></content>
+	<tabTrigger>arm:p</tabTrigger>
+	<!-- Limit snippet trigger to "Azure resource manager" scope -->
+	<scope>source.azure-resource-manager</scope>
+	<Description>Azure Resource Manager Parameter</Description>
+</snippet>

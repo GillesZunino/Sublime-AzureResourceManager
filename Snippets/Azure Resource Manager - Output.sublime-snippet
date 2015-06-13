@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+"${1:myOutput}":	{
+	"type":	"$2",
+	"value":	"$3"
+}
+]]></content>
+	<tabTrigger>arm:o</tabTrigger>
+	<!-- Limit snippet trigger to "Azure resource manager" scope -->
+	<scope>source.azure-resource-manager</scope>
+	<Description>Azure Resource Manager Output</Description>
+</snippet>
