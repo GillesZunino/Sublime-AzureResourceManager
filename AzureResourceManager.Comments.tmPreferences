@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>name</key>
+   <string>Azure Resource Manager Comments</string>
+   <key>scope</key>
+   <string>source.azure-resource-manager</string>
+   <key>settings</key>
+   <dict>
+      <!--<string></string> -->
+      <key>shellVariables</key>
+      <array>
+         <!-- Single line comment -->
+         <dict>
+            <key>name</key>
+            <string>TM_COMMENT_START</string>
+            <key>value</key>
+            <string>// </string>
+         </dict>
+
+         <!-- Block comment -->
+         <dict>
+            <key>name</key>
+            <string>TM_COMMENT_START_2</string>
+            <key>value</key>
+            <string>/*</string>
+         </dict>
+         <dict>
+            <key>name</key>
+            <string>TM_COMMENT_END_2</string>
+            <key>value</key>
+            <string>*/</string>
+         </dict>
+      </array>
+   </dict>
+   <key>uuid</key>
+   <string>4E9919AE-D5A3-4BF7-9123-CB80BF289B86</string>
+</dict>
+</plist>
